@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri IT Solutions</title>
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="css/syntax/shCore.css" rel="stylesheet"  media="screen">
+    <link href="css/syntax/shThemeDefault.css" rel="stylesheet"  media="screen">
+
+    <link href="css/style.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/color-default.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/width-full.css" rel="stylesheet" media="screen" title="default">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83848353-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+
+    <div class="boxed animated fadeIn animation-delay-5">
+
+        <header id="header" class="hidden-xs">
+            <div class="container">
+                <div id="header-title">
+                    <h1 class="animated fadeInDown"><a href="index.html">
+                        <img style="width: 200px;height: 150px;padding: 0px;margin: -35px;" src="img/Logo1_new.jpg"/></a></h1>
+
+                </div>
+
+                <div id="social-header" class="hidden-xs">
+                    <a href="#" class="social-icon soc-twitter animated fadeInDown animation-delay-1" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <!-- <a href="#" class="social-icon soc-google-plus animated fadeInDown animation-delay-2" target="_blank"><i class="fa fa-google-plus"></i></a> -->
+                    <a href="#" class="social-icon soc-facebook animated fadeInDown animation-delay-3" target="_blank"><i class="fa fa-facebook"></i></a>
+                   <!--  <a href="#" class="social-icon soc-instagram animated fadeInDown animation-delay-4" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="social-icon soc-pinterest animated fadeInDown animation-delay-5" target="_blank"><i class="fa fa-pinterest"></i></a> -->
+                    <a href="#" class="social-icon soc-linkedin animated fadeInDown animation-delay-6" target="_blank"><i class="fa fa-linkedin"></i></a>
+                   <!--  <a href="#" class="social-icon soc-github animated fadeInDown animation-delay-7" target="_blank"><i class="fa fa-github"></i></a> -->
+                </div>
+
+
+            </div> <!-- container -->
+        </header> <!-- header -->
+
+        <nav class="navbar navbar-static-top navbar-mind" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="index.html">
+                        <img style="width: 200px;height: 150px;padding: 0px;margin: -35px;" src="img/Logo1_new.jpg"/></a>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-mind-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-inverse"></i>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-mind-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+						<li><a href="mvc.html">MVC</a></li>
+
+						<li><a href="batches.html"> Batches</a></li>
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+
+								<li><a href="mvchistoryandevolution.html">MVC – History & Folder Structure</a></li>
+								<li><a href="mvcproject-templates.html">MVC – Project Templates</a></li>
+								<li><a href="mvcforms.html">MVC – Forms</a></li>
+								<li><a href="mvc-controllers.html">MVC – Controllers</a></li>
+
+                            </ul>
+                        </li> <!-- dropdown -->
+						<li><a href="contact.html">Contact Us</a></li>
+
+                    </ul> <!-- nav nabvar-nav -->
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li  class=" active"><a href="login.html">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul> <!-- nav nabvar-nav -->
+                </div><!-- navbar-collapse -->
+            </div> <!-- container -->
+        </nav> <!-- navbar navbar-default -->
+
+        <header class="wrap-title">
+            <div class="container">
+               <!--  <h1 class="page-title">Login Page</h1> -->
+
+                <ol class="breadcrumb hidden-xs">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Login</li>
+                </ol>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="center-block logig-form">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Login Form</div>
+                    <div class="panel-body">
+                        <form action="login.php" method="POST" role="form">
+                            <div class="form-group">
+                                <div class="input-group login-input">
+                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                    <input id="username" name="username" type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <br>
+                                <div class="input-group login-input">
+                                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                    <input type="password" id="password" name="password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div>
+                                <input type="submit" name="submit" class="btn btn-primary pull-right" value="Login" onclick="return validations();">
+                                <a href="#" class="social-icon soc-twitter animated fadeInDown animation-delay-2"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="social-icon soc-google-plus animated fadeInDown animation-delay-3"><i class="fa fa-google-plus"></i></a>
+                                <a href="#" class="social-icon soc-facebook animated fadeInDown animation-delay-4"><i class="fa fa-facebook"></i></a>
+                                <hr>
+                                <a href="#" class="btn btn-success pull-right">Create Account</a>
+                                <a href="#" class="btn btn-warning">Password Recovery</a>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- container  -->
+
+        <aside id="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="footer-widget-title">Sitemap</h3>
+                        <ul class="list-unstyled three_cols">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">New Batches</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title"> </h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-widget">
+                            <h3 class="footer-widget-title"> </h3>
+
+                        </div>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </aside> <!-- footer-widgets -->
+
+        <footer id="footer">
+            <p>&copy; 2016 <a href="#">Sri IT Solutions</a>, inc. All rights reserved.</p>
+        </footer>
+
+    </div> <!-- boxed -->
+
+    <div id="back-top">
+        <a href="#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/styleswitcher.js"></script>
+
+    <script src="js/syntax/shCore.js"></script>
+    <script src="js/syntax/shBrushXml.js"></script>
+    <script src="js/syntax/shBrushJScript.js"></script>
+
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+
+		function validations() {
+			var uname = $('#username').val();
+			var pwd = $('#password').val();
+			if(uname == '') {
+				alert('Please enter Username.');
+				return false;
+			}
+			if(pwd == '') {
+				alert('Please enter Password.');
+				return false;
+			}
+			//if($('#InputCountry').val('')) {
+			//	alert('Please select Country.');
+			//	return false;
+			//}
+			if(pwd != pwd1) {
+				alert('You are entered both passwords not matched.');
+				return false;
+			}
+		}
+    </script>
+</body>
+</html>
